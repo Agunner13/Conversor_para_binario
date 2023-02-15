@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(197, 197, 197);
+}
+
+.conteiner{
+    margin-top: 2em;
+    width: 18em;
+}
+
+.inputConteiner, .outputConteiner{
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.inputConteiner{
+    background-color: rgb(85, 119, 134);
+
+}
+
+.outputConteiner{
+    background-color: rgb(239, 244, 245);
+    color: rgb(85, 119, 134);
+    width: 100%;
+    word-break: break-all;
+}
+
+input{
+    background-color: rgb(85, 119, 134);
+    height: 3em;
+    width: 5em;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    color: white;
+
+}
+input:focus{
+    outline: none;
+}
